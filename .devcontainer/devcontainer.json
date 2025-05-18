@@ -1,0 +1,11 @@
+{
+    "name": "C# Heat Transfer App",
+    "image": "mcr.microsoft.com/dotnet/sdk:8.0",
+    "features": {
+        "ghcr.io/devcontainers/features/dotnet:1": {}
+    },
+    "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-vscode.cpptools"
+    ]
+}
