@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType> <!-- Defines an executable project -->
+    <TargetFramework>net8.0</TargetFramework> <!-- Specifies the .NET version -->
+    <RootNamespace>HeatTransferApp</RootNamespace>
+    <AssemblyName>HeatTransferApp</AssemblyName>
+    <RootNamespace>DataGridView</RootNamespace>  <!-- ✅ Must match the namespace used in code -->
+    <AssemblyName>DataGridView</AssemblyName>  <!-- ✅ Ensures correct output -->
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GtkSharp" Version="3.24.24.95" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
