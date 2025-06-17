@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataGridView")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7a938e56dfcc001b4bf447a5943f172a066a630")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+173bb878a40b55e6e0c7e7dffcd074f3770e921b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataGridView")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataGridView")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
