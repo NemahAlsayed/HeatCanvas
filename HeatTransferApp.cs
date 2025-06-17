@@ -1,4 +1,4 @@
-namespace HeatCanvas  // ✅ Ensure namespace is defined
+namespace HeatCanvas // ✅ Ensure namespace is defined
 {
     using Gtk;
 
