@@ -1641,19 +1641,19 @@
     ]
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/DataGridView/Grid.csproj",
+      "projectUniqueName": "/workspaces/HeatCanvas/Grid.csproj",
       "projectName": "DataGridView",
-      "projectPath": "/workspaces/DataGridView/Grid.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/DataGridView/obj/",
+      "projectPath": "/workspaces/HeatCanvas/Grid.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/workspaces/HeatCanvas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1676,7 +1676,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -1710,6 +1711,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.17, 8.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[8.0.17, 8.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.17, 8.0.17]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1718,7 +1733,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/dotnet/9.0.301/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
