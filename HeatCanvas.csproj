@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType> <!-- Defines an executable project -->
-    <TargetFramework>net8.0</TargetFramework> <!-- Specifies the .NET version -->
+    <TargetFramework>net9.0</TargetFramework> <!-- Specifies the .NET version -->
     <RootNamespace>HeatTransferApp</RootNamespace>
     <AssemblyName>HeatTransferApp</AssemblyName>
     <RootNamespace>DataGridView</RootNamespace>  <!-- ✅ Must match the namespace used in code -->
